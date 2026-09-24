@@ -1,0 +1,21 @@
+{
+  "needs_reply": {
+    "type": "noul",
+    "instructions": "Does this email require a reply from me?"
+  },
+  "kind": {
+    "type": "choice",
+    "instructions": "What kind of email is this?",
+    "criteria": {
+      "meeting": "Scheduling or rescheduling a meeting",
+      "request": "Someone asking me to do something",
+      "fyi": "Informational, no action needed",
+      "spam": "Marketing, phishing, or unsolicited"
+    }
+  },
+  "priority": {
+    "type": "score",
+    "instructions": "How soon should I deal with this?",
+    "criteria": ["ignore", "this week", "today", "right now"]
+  }
+}

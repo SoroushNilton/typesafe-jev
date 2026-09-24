@@ -1,0 +1,16 @@
+{
+  "recommends": {
+    "type": "noul",
+    "instructions": "Would this reviewer recommend the product to others?"
+  },
+  "topic": {
+    "type": "choice",
+    "instructions": "What is the review mainly about?",
+    "criteria": {"quality": null, "price": null, "shipping": null, "customer service": null}
+  },
+  "rating": {
+    "type": "score",
+    "instructions": "What star rating does this review most likely go with?",
+    "criteria": ["1 star", "2 stars", "3 stars", "4 stars", "5 stars"]
+  }
+}

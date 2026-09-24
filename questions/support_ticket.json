@@ -1,0 +1,16 @@
+{
+  "billing": {
+    "type": "noul",
+    "instructions": "Is this ticket about billing or payments?"
+  },
+  "tone": {
+    "type": "choice",
+    "instructions": "What is the customer's tone?",
+    "criteria": {"calm": null, "frustrated": null, "angry": null}
+  },
+  "urgency": {
+    "type": "score",
+    "instructions": "How urgent is this ticket?",
+    "criteria": ["can wait", "this week", "today"]
+  }
+}
